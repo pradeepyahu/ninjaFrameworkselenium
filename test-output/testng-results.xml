@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-22T18:18:22 IST" name="Ninja Suite" finished-at="2023-12-22T18:20:05 IST" duration-ms="102956">
+    <groups>
+    </groups>
+    <test started-at="2023-12-22T18:18:22 IST" name="Ninja Tests" finished-at="2023-12-22T18:20:05 IST" duration-ms="102956">
+      <class name="com.ninja.qa.testcases.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:18:44 IST" name="setup" finished-at="2023-12-22T18:18:52 IST" duration-ms="7662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyWithValidCreds()[pri:1, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:18:52 IST" name="verifyWithValidCreds" finished-at="2023-12-22T18:18:53 IST" duration-ms="1392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithValidCreds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:18:53 IST" name="tearDown" finished-at="2023-12-22T18:18:53 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:18:53 IST" name="setup" finished-at="2023-12-22T18:19:01 IST" duration-ms="7983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyWithValidUnameInValidPwd()[pri:2, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:19:01 IST" name="verifyWithValidUnameInValidPwd" finished-at="2023-12-22T18:19:02 IST" duration-ms="1031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithValidUnameInValidPwd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:19:02 IST" name="tearDown" finished-at="2023-12-22T18:19:02 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:19:02 IST" name="setup" finished-at="2023-12-22T18:19:10 IST" duration-ms="7839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyWithInvalidCreds()[pri:3, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:19:10 IST" name="verifyWithInvalidCreds" finished-at="2023-12-22T18:19:11 IST" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithInvalidCreds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:19:11 IST" name="tearDown" finished-at="2023-12-22T18:19:11 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:19:11 IST" name="setup" finished-at="2023-12-22T18:19:19 IST" duration-ms="7675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyWithBlankCreds()[pri:4, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:19:19 IST" name="verifyWithBlankCreds" finished-at="2023-12-22T18:19:20 IST" duration-ms="789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithBlankCreds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:19:20 IST" name="tearDown" finished-at="2023-12-22T18:19:20 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:19:21 IST" name="setup" finished-at="2023-12-22T18:19:29 IST" duration-ms="7932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyWithInvalidUnameValidPwd(java.lang.String,java.lang.String)[pri:5, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:19:29 IST" name="verifyWithInvalidUnameValidPwd" data-provider="invalidTestDataFromExcel" finished-at="2023-12-22T18:19:30 IST" duration-ms="1051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pradeep@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithInvalidUnameValidPwd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:19:30 IST" name="tearDown" finished-at="2023-12-22T18:19:30 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:19:30 IST" name="setup" finished-at="2023-12-22T18:19:38 IST" duration-ms="8044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyWithInvalidUnameValidPwd(java.lang.String,java.lang.String)[pri:5, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:19:38 IST" name="verifyWithInvalidUnameValidPwd" data-provider="invalidTestDataFromExcel" finished-at="2023-12-22T18:19:39 IST" duration-ms="1030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ryan@gmial.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithInvalidUnameValidPwd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:19:39 IST" name="tearDown" finished-at="2023-12-22T18:19:39 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:19:39 IST" name="setup" finished-at="2023-12-22T18:19:47 IST" duration-ms="7856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyWithInvalidUnameValidPwd(java.lang.String,java.lang.String)[pri:5, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:19:47 IST" name="verifyWithInvalidUnameValidPwd" data-provider="invalidTestDataFromExcel" finished-at="2023-12-22T18:19:48 IST" duration-ms="1094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dua@google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithInvalidUnameValidPwd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:19:48 IST" name="tearDown" finished-at="2023-12-22T18:19:48 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:19:48 IST" name="setup" finished-at="2023-12-22T18:19:56 IST" duration-ms="7434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyWithInvalidUnameValidPwd(java.lang.String,java.lang.String)[pri:5, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:19:56 IST" name="verifyWithInvalidUnameValidPwd" data-provider="invalidTestDataFromExcel" finished-at="2023-12-22T18:19:57 IST" duration-ms="1004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raja@bell.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithInvalidUnameValidPwd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninja.qa.testcases.Login@4145bad8]" started-at="2023-12-22T18:19:57 IST" name="tearDown" finished-at="2023-12-22T18:19:57 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ninja.qa.testcases.Login -->
+      <class name="com.ninja.qa.testcases.Register">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.qa.testcases.Register@53aac487]" started-at="2023-12-22T18:18:22 IST" name="setup" finished-at="2023-12-22T18:18:31 IST" duration-ms="9773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyDuplicateRegistration()[pri:0, instance:com.ninja.qa.testcases.Register@53aac487]" started-at="2023-12-22T18:18:31 IST" name="verifyDuplicateRegistration" finished-at="2023-12-22T18:18:33 IST" duration-ms="1789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDuplicateRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninja.qa.testcases.Register@53aac487]" started-at="2023-12-22T18:18:33 IST" name="tearDown" finished-at="2023-12-22T18:18:33 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.qa.testcases.Register@53aac487]" started-at="2023-12-22T18:18:33 IST" name="setup" finished-at="2023-12-22T18:18:42 IST" duration-ms="8684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisteMandatoryFields()[pri:0, instance:com.ninja.qa.testcases.Register@53aac487]" started-at="2023-12-22T18:18:42 IST" name="verifyRegisteMandatoryFields" finished-at="2023-12-22T18:18:44 IST" duration-ms="1724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninja.qa.testcases.Register@53aac487]" started-at="2023-12-22T18:18:44 IST" name="tearDown" finished-at="2023-12-22T18:18:44 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ninja.qa.testcases.Register -->
+      <class name="com.ninja.qa.testcases.Search">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ninja.qa.testcases.Search@d86a6f]" started-at="2023-12-22T18:19:57 IST" name="setup" finished-at="2023-12-22T18:20:04 IST" duration-ms="6819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyValidSearch()[pri:0, instance:com.ninja.qa.testcases.Search@d86a6f]" started-at="2023-12-22T18:20:04 IST" name="verifyValidSearch" finished-at="2023-12-22T18:20:04 IST" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninja.qa.testcases.Search@d86a6f]" started-at="2023-12-22T18:20:04 IST" name="tearDown" finished-at="2023-12-22T18:20:05 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ninja.qa.testcases.Search -->
+    </test> <!-- Ninja Tests -->
+  </suite> <!-- Ninja Suite -->
+</testng-results>
