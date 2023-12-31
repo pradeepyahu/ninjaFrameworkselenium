@@ -6,19 +6,18 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class AccountPage {
-	
-	
+
 	WebDriver driver;
-	@FindBy(linkText="Edit your account information")
+	@FindBy(linkText = "Edit your account information")
 	private WebElement LoginSuccess;
-	
+
 	public AccountPage(WebDriver driver) {
 		this.driver = driver;
-		PageFactory.initElements(driver,this);
+		PageFactory.initElements(driver, this);
 	}
 
 	public Boolean LoggedInSuccessfully() {
 		return LoginSuccess.isDisplayed();
 	}
-	
+
 }
